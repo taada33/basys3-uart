@@ -15,10 +15,11 @@ A parameterized UART transmitter designed in SystemVerilog for the Digilent Basy
 
 ## Project Structure
 
+```text
 UART_TX.srcs/
-    sources_1/
-    sim_1/
-    constrs_1/
+├── sources_1/
+├── sim_1/
+└── constrs_1/
 
 ## Future Work
 
