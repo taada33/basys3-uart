@@ -16,9 +16,25 @@ A parameterized UART transmitter designed in SystemVerilog for the Digilent Basy
 ## Project Structure
 
 UART_TX.srcs/
-├── sources_1/
-├── sim_1/
-└── constrs_1/
+* sources_1/
+  * debouncer.sv
+  * edge_detector.sv
+  * seven_seg.sv
+  * uart_tx.sv
+  * top.sv
+* sim_1/
+  * tb_top.sv
+  * tb_uart_tx.sv
+* constrs_1/
+  * Basys-3-Master.xdc 
+
+## Hardware
+
+- Digilent Basys 3
+- 100 MHz system clock
+- Eight switches used as the transmit byte
+- Center push button used to initiate transmission
+- UART output connected to the onboard USB-UART interface
 
 ## Future Work
 
